@@ -1,4 +1,4 @@
-export const APP_TITLE = "Nate's Next.js Starter";
+export const APP_TITLE = "Nate's Storefront Starter";
 export const EMAIL_SENDER = '"Nate" <noreply@trudine.com>';
 
 export const links = {

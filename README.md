@@ -1,4 +1,4 @@
-## Nate's Next.js Starter
+## Nate's Storefront Starter
 
 A [Next.js](https://nextjs.org/) barebones starter project with everything you need to build a production-ready web app.
 
@@ -17,13 +17,13 @@ A [Next.js](https://nextjs.org/) barebones starter project with everything you n
 The easiest way to start with this template is using `create-next-app`.
 
 ```
-npx create-next-app -e https://github.com/nathanlevitt/nextjs-starter
+npx create-next-app -e https://github.com/nathanlevitt/storefront-starter
 ```
 
 or
 
 ```
-pnpm create next-app -e https://github.com/nathanlevitt/nextjs-starter
+pnpm create next-app -e https://github.com/nathanlevitt/storefront-starter
 ```
 
 If you prefer, you can clone this repository and run the following commands to install packages and run the development server:
@@ -39,11 +39,11 @@ Create a `.env.local` file based on [lib/env.ts](lib/env.ts)
 
 <br />
 
-![Nate's Next.js Starter landing page](public/screenshots/landing.png)
+![Nate's Storefront Starter landing page](public/screenshots/landing.png)
 
-![Nate's Next.js Starter sign in page](public/screenshots/sign-in.png)
+![Nate's Storefront Starter sign in page](public/screenshots/sign-in.png)
 
-![Nate's Next.js Starter dashboard page](public/screenshots/dashboard.png)
+![Nate's Storefront Starter dashboard page](public/screenshots/dashboard.png)
 
 ## 📜 License
 
