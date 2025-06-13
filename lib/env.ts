@@ -8,6 +8,7 @@ export const env = createEnv({
       .default("development"),
     VERCEL_URL: z.string().min(1),
     DATABASE_URL: z.string().min(1),
+    BLOB_READ_WRITE_TOKEN: z.string().min(1),
     SMTP_HOST: z.string().trim().min(1),
     SMTP_PORT: z.number().int().min(1),
     SMTP_USER: z.string().trim().min(1),
@@ -23,6 +24,7 @@ export const env = createEnv({
     NODE_ENV: process.env.NODE_ENV,
     VERCEL_URL: process.env.VERCEL_URL,
     DATABASE_URL: process.env.DATABASE_URL,
+    BLOB_READ_WRITE_TOKEN: process.env.BLOB_READ_WRITE_TOKEN,
 
     SMTP_HOST: process.env.SMTP_HOST,
     SMTP_PORT: parseInt(process.env.SMTP_PORT ?? ""),
